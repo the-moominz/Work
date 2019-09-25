@@ -1,6 +1,31 @@
 /*HEADER*/
 
+  /*Liens de navigation*/
+  .navigation {
+    list-style: none;
+    display: flex;
+    flex-direction: row;
+  }
+  a:link {
+    color: #504658;
+    text-decoration: none;
+  }
+  a:visited {
+    color: gray;
+  }
+  a:hover {
+    color: red;
+  }
+  a:active {
+    color: red;
+  }
 
+#ban {
+  width: 100%;
+  height: 1200px;
+  background-image: url('assets/home_tokyo.jpg');
+  background-size: cover;
+}
 
 
 /*SECTION*/
